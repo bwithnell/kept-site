@@ -1,0 +1,14 @@
+:root{--bg:#F3F0EA;--surface:#FBF9F5;--line:#DCD6CB;--fg:#1F1D1A;--fg2:#5E584F;--accent:#1F4B8F;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#171614;--surface:#1F1E1B;--line:#3A3833;--fg:#ECE7DE;--fg2:#A39C90;--accent:#8FB1E6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 "Literata",Georgia,serif}
+main{max-width:40rem;margin:0 auto;padding:4rem 1rem 5rem}
+.mark{display:flex;align-items:center;gap:.6rem;font-size:2rem;margin:0 0 2rem}
+.mark svg{width:.78rem;height:1rem;fill:var(--accent)}
+h1{font-weight:400;font-size:2rem;line-height:1.2;margin:0 0 1.5rem}
+h2{font:600 .8rem/1.4 "Instrument Sans",system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--fg2);margin:2.5rem 0 .6rem}
+p,li{margin:0 0 .9rem}
+ul{padding-left:1.2rem}
+a{color:var(--accent)}
+.meta{font:14px/1.5 "Instrument Sans",system-ui,sans-serif;color:var(--fg2)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line)}
